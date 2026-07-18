@@ -52,6 +52,7 @@ Verify both services are healthy:
 
 ## Project Structure
 
+```
 eduplatform/
 ├── apps/
 │ ├── web/ # Next.js frontend
@@ -60,6 +61,7 @@ eduplatform/
 │ └── shared/ # Shared Zod schemas + TS types
 ├── docker-compose.yml
 └── turbo.json
+```
 
 See `docs/architecture.md` (coming soon) for the full API map and
 routing structure.
